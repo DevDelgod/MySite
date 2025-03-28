@@ -29,14 +29,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-@media (max-width: 768px) {
-    .person-content, 
-    .person-background {
-        width: 100%;
-        height: auto;
-    }
-}
-
 /* PERSON PAGE */
 #person {
     height: 100vh;
@@ -182,7 +174,6 @@ body {
     z-index: -1;
     background:
         linear-gradient(270deg, transparent 10%, var(--color-black));
-
 }
 
 .wrapper-profile-photo {
@@ -198,7 +189,6 @@ body {
         radial-gradient(rgba(0, 0, 0, 0.15) 60%, transparent 0),
         radial-gradient(#000 68%, transparent 0),
         linear-gradient(to top right, #ffa500 0%, #ff1493 100%);
-
 }
 
 .profile-photo {
@@ -280,7 +270,6 @@ body {
 .section-subtitle h2 p {
     display: inline-block;
     font-size: 3rem;
-
 }
 
 .section-subtitle h2 p:nth-child(2) span {
@@ -322,7 +311,6 @@ body {
     display: flex;
     width: 190px;
     margin: 4rem 3rem;
-
 }
 
 .button.cta button {
@@ -546,12 +534,9 @@ body {
 .contact-info a:hover {
     transition: color .3s ease;
     color: var(--color-yellow);
-    
 }
+ 
 /* END CONTACTS PAGE */
-
-
-
 
 @keyframes written_text {
     100% {
